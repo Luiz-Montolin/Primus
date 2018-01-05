@@ -1,0 +1,143 @@
+/*
+Desenvolvido: luiz Montolin;
+versão: 01
+data 02/01/2018;
+todos direitos reservados
+*/
+
+.html {
+	margin:		0 0 0 0;
+	padding: 	0 0 0 0;
+	bottom: 	0 0 0 0;
+}
+.zero-padd{
+	padding-right: 0px;
+	padding-left: 0px;
+	background: #fff;
+}
+.menu{
+	height: 80px;
+	background: #fff;
+}
+.slideShow{
+	max-height: 500px;
+	z-index: -1;
+}
+.container-fluid{
+	padding-left: 0px;
+	padding-right: 0px;
+}
+.sombra{
+	/*max-height: 550px;*/
+	position: absolute;
+    left: 0px;
+    top: 80px;
+    z-index: 1;
+	background: rgba(0, 0, 0, 0.6);
+	color:#fff;
+	text-shadow: 2px 2px #000;
+	padding: 10.2% 0%;
+}
+.btn-primary{
+	background: #0000B2;
+	border: 0px;
+	color: #fff;
+}
+.bt_sobra{
+	padding-top: 20px;
+}
+.nav-link{
+	color: rgba(0,0,0,.9);
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: #0000B2;
+}
+.produtos{
+	background: #fff;
+	padding: 2rem 1rem;
+}
+.card-deck{
+	padding-top:  20px;
+	padding-bottom: 20px;
+}
+.servico{
+	margin-bottom: 0px;
+	background: #444444;
+	color: #fff;
+}
+.li-serviço{
+	padding: 30px;
+}
+.footer{
+	margin-bottom: 0px;
+}
+.zoom {
+	overflow: hidden;
+}
+
+.zoom img {
+	max-width: 100%;
+	-moz-transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.zoom:hover img {
+	-moz-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+.contato{
+	background: #f7f7f791;
+	padding-bottom: 50px;
+}
+a:hover {
+    /*text-decoration: none;*/
+}
+a.text-light:focus, a.text-light:hover {
+    color: #c9d3dc!important;
+}
+.login{
+	background: #fff;
+	margin-top: 12%;
+	padding: 2%;
+	border: 1px solid rgba(125, 125, 125, 0.59);;
+	border-radius: 5px;
+	box-shadow: 8px 8px rgba(125, 125, 125, 0.59);
+}
+.sta{
+	background: #e9ecef;
+}
+.tira-b{
+	border-top: 1px solid #000;
+}
+.table td, .table th {
+    padding: .75rem;
+    vertical-align: top;
+    border-top: 1px solid #fff; 
+}
+.especif{
+	margin-top: 2%;
+}
+.produt{
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+.torneamento{
+	background: #fff;
+}
+.manute{
+	background: #fff;
+}
+.projeto-m{
+	background: #444;
+	color: #fff;
+	margin-bottom: 0px;
+}
+.quemsomos{
+	padding: 2%;
+	margin-bottom: 0px;
+	background: #444444;
+	color: #fff;
+}
