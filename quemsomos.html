@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
     <link href="icon/open-iconic/font/css/open-iconic-bootstrap.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" type="text/css" href="css/estilo-primus.css">
 
     <title>Soluções Industriais</title>
@@ -84,11 +85,11 @@
 					</div>
 					<div class="row justify-content-center">
 						<div class="col-md-5">
-							<img src="img/img-c.png" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
+							<img src="img/img-c.png" class="figure-img img-fluid rounded wow fadeInLeft" ata-wow-duration="1.5s" data-wow-delay="0.47s" alt="A generic square placeholder image with rounded corners in a figure.">
 						</div>
 						<div class="col-md-6">
 							<h4 class="quemsomos">Primus Soluções</h4>
-			                <p class="lead">Ao contrário do que se acredita, Lorem Ipsum não é simplesmente um texto randômico. Com mais de 2000 anos, suas raízes podem ser encontradas em uma obra de literatura latina clássica datada de 45 AC. Richard McClintock, um professor de latim do Hampden-Sydney College na Virginia, pesquisou uma das mais obscuras palavras em latim, consectetur, oriunda de uma passagem de Lorem Ipsum, e, procurando por entre citações da palavra na literatura clássica, descobriu a sua indubitável origem. Lorem Ipsum vem das seções 1.10.32 e 1.10.33 do "de Finibus Bonorum et Malorum" (Os Extremos do Bem e do Mal), de Cícero, escrito em 45 AC. Este livro é um tratado de teoria da ética muito popular na época da Renascença. A primeira linha de Lorem Ipsum, "Lorem Ipsum dolor sit amet..." vem de uma linha na seção 1.10.32.
+			                <p class="lead wow fadeInRight" ata-wow-duration="1.5s" data-wow-delay="0.47s">Ao contrário do que se acredita, Lorem Ipsum não é simplesmente um texto randômico. Com mais de 2000 anos, suas raízes podem ser encontradas em uma obra de literatura latina clássica datada de 45 AC. Richard McClintock, um professor de latim do Hampden-Sydney College na Virginia, pesquisou uma das mais obscuras palavras em latim, consectetur, oriunda de uma passagem de Lorem Ipsum, e, procurando por entre citações da palavra na literatura clássica, descobriu a sua indubitável origem. Lorem Ipsum vem das seções 1.10.32 e 1.10.33 do "de Finibus Bonorum et Malorum" (Os Extremos do Bem e do Mal), de Cícero, escrito em 45 AC. Este livro é um tratado de teoria da ética muito popular na época da Renascença. A primeira linha de Lorem Ipsum, "Lorem Ipsum dolor sit amet..." vem de uma linha na seção 1.10.32.
 			                </p>
 			                
 						</div>	
@@ -123,7 +124,7 @@
 
 						<div class="col-md-4">
 							<div class="row justify-content-center">
-									<img src="img/logo-primus.png" class="img-fluid" href="index.html" alt="Responsive image">
+								<img src="img/logo-primus.png" class="img-fluid wow fadeInLeft" ata-wow-duration="1s" data-wow-delay="0.1s" alt="Responsive image">
 							</div>	
 
 							<div class="row justify-content-center">
@@ -136,7 +137,7 @@
 
 						<div class="col-md-4">
 							<div class="row justify-content-end">
-								<h3 class="text-center"><i class="fa fa-whatsapp" style="font-size:130%"></i>(19)3299-2464</h3>
+								<h3 class="text-center wow shake" ata-wow-duration="1.5s" data-wow-delay="0.1s"><i class="fa fa-whatsapp" style="font-size:130%"></i>(19)3299-2464</h3>
 							</div>
 							<div class="row justify-content-end">
 								<a href="#" class=" text-primary text-center font-italic"><span class="oi oi-envelope-closed"></span> contato@primussolucoes.com.br</a>
@@ -158,5 +159,18 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
+    <script src="js/wow.js"></script>
+    <script>
+      wow = new WOW(
+        {
+          animateClass: 'animated',
+          offset:       100,
+          callback:     function(box) {
+            console.log("WOW: animating <" + box.tagName.toLowerCase() + ">")
+          }
+        }
+      );
+      wow.init(); 
+    </script>
   </body>
 </html>
