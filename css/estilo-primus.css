@@ -16,7 +16,8 @@ todos direitos reservados
 	background: #fff;
 }
 .menu{
-	height: 80px;
+	padding-top: 10px;
+	padding-bottom: 10px;
 	background: #fff;
 }
 .slideShow{
@@ -128,7 +129,7 @@ a.text-light:focus, a.text-light:hover {
 	background: #fff;
 }
 .manute{
-	background: #fff;
+	margin-bottom: 0px;
 }
 .projeto-m{
 	background: #444;
@@ -141,6 +142,9 @@ a.text-light:focus, a.text-light:hover {
 	background: #444444;
 	color: #fff;
 }
+.nav-p{
+	border-bottom: 1px solid rgba(125, 125, 125, 0.59); 
+}
 
 
 
@@ -152,6 +156,9 @@ a.text-light:focus, a.text-light:hover {
     h4 {
         font-size: 0.6rem;
     }
+    h5 {
+    	font-size: 0.8rem;
+	}
     .w-100 {
     	height: 180px;
 	}
@@ -166,9 +173,9 @@ a.text-light:focus, a.text-light:hover {
 	    margin-left: 80px;   
 	}
 	.sombra {
-	    position: absolute;
+	    position: relative;
 	    left: 0px;
-	    top: 80px;
+	    top: -180px;
 	    z-index: 1;
 	    background: rgba(0, 0, 0, 0.48);
 	    color: #fff;
@@ -181,18 +188,29 @@ a.text-light:focus, a.text-light:hover {
 	    line-height: 0.6;
 	}	
 	.lead {
-	    font-size: 0.65rem;
+	    font-size: 0.8rem;
 	    font-weight: 300;
 	    padding: 4%
+	}
+	p{
+		font-size: 0.8rem;
 	}
 	.btn-group-lg>.btn, .btn-lg {
 	    /* padding: .5rem 1rem; */
 	    font-size: 0.55rem;
 		}
+	.mg-f{
+		margin-right: 30px;   
+	    margin-left: 30px;
+	}
 	.menu {
     z-index: 3;
 	}
-	
-
+	.torneamento, .projeto-m, .manute, .fresamento, .contato{
+    	padding: 5% 5%;
+	}
+	.login2, .produt{
+		padding: 15% 15%;
+	}
 
 }
