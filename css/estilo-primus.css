@@ -248,3 +248,61 @@ a.text-light:focus, a.text-light:hover {
 	    padding: 8.2% 0%;
 		}
 }
+@media screen and (max-width: 850px) and (min-width: 500px) {
+	h1 {
+        font-size: 2.0rem;
+    }
+    h4 {
+        font-size: 1.2rem;
+    }
+    h5 {
+    	font-size: 0.8rem;
+	}
+	.sombra {
+	    position: relative;
+	    left: 0px;
+	    top: -180px;
+	    z-index: 1;
+	    padding: 1.2% 0%;
+		}
+	.btn-group-lg>.btn, .btn-lg {
+	    /* padding: .5rem 1rem; */
+	    font-size: 1.25rem;
+		}
+	.mg-f{
+		margin-right: 10px;   
+	    margin-left: 10px;
+	}
+	.w-100 {
+    	height: 180px;
+	}
+	.bt_sobra {
+		padding: 2.5%;
+	    display: -webkit-box;
+	    display: -ms-flexbox;
+	    display: flex;
+	    -ms-flex-wrap: wrap;
+	    flex-wrap: nowrap;   
+	    margin-right: 100px;   
+	    margin-left: 100px;   
+	}
+	.col-md-1 {
+	    max-width: 50%;
+	}
+	.col-md-6 {
+	     flex: 0 0 80%;
+	     max-width: 80%;
+	}
+	.slideShow{
+	max-height: 148px;
+	}
+	p{
+		font-size: 1rem;
+	}
+	.lead {
+	    font-size: 1rem;
+	    font-weight: 300;
+	    padding: 4%
+	}
+
+}
