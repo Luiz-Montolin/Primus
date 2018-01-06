@@ -21,7 +21,7 @@ todos direitos reservados
 	background: #fff;
 }
 .slideShow{
-	max-height: 550px;
+	max-height: 50%;
 	z-index: -1;
 }
 .container-fluid{
@@ -32,7 +32,7 @@ todos direitos reservados
 	/*max-height: 550px;*/
 	position: absolute;
     left: 0px;
-    top: 80px;
+    top: 90px;
     z-index: 1;
 	background: rgba(0, 0, 0, 0.6);
 	color:#fff;
@@ -216,4 +216,35 @@ a.text-light:focus, a.text-light:hover {
 	max-height: 148px;
 	}
 
+}
+
+@media screen and (max-width: 1900px) and (min-width: 1600px) {
+
+	.sombra {
+	    position: absolute;
+	    left: 0px;
+	    top: 90px;
+	    z-index: 1;
+	    padding: 9.6% 0%;
+		}
+}
+@media screen and (max-width: 1600px) and (min-width: 1400px) {
+
+	.sombra {
+	    position: absolute;
+	    left: 0px;
+	    top: 90px;
+	    z-index: 1;
+	    padding: 8.9% 0%;
+		}
+}
+@media screen and (max-width: 1400px) and (min-width: 1200px) {
+
+	.sombra {
+	    position: absolute;
+	    left: 0px;
+	    top: 90px;
+	    z-index: 1;
+	    padding: 8.2% 0%;
+		}
 }
