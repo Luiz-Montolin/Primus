@@ -21,7 +21,7 @@ todos direitos reservados
 	background: #fff;
 }
 .slideShow{
-	max-height: 500px;
+	max-height: 550px;
 	z-index: -1;
 }
 .container-fluid{
@@ -211,6 +211,9 @@ a.text-light:focus, a.text-light:hover {
 	}
 	.login2, .produt{
 		padding: 15% 15%;
+	}
+	.slideShow{
+	max-height: 148px;
 	}
 
 }
